@@ -2,6 +2,8 @@
     <div class="container">
         <br><br>
         <h1 class="header center orange-text">{{ name }}</h1>
-    
+        <ul>
+            <li ng-repeat=" task in tasks ">{{ task.name }} - {{ task.description }}</li>
+        </ul>
     </div>
 </div>
