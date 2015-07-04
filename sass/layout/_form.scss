@@ -1,3 +1,18 @@
 .addTODO {
   display: none;
 }
+
+.addListForm {
+  height: 400px;
+  width: 25%;
+  border: 2px #ccc solid;
+  border-radius: 1em;
+  padding: 2em !important;
+  background: #ccc;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.addListHandler {
+  float: right;
+}

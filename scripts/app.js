@@ -7,14 +7,15 @@
 		$routeProvider
 
 		.when('/', {
-			templateUrl : 'views/index.html',
-			controller  : 'homeController'
+			templateUrl : 'views/home.html',
+			controller  : 'homeCtrl'
 		})
 
-		// .when('/client/:slug/', {
-		// 	templateUrl : 'views/client.html',
-		// 	controller  : 'clientController'
-		// })
+		.when('/list/:name/', {
+			templateUrl : 'views/list.html',
+			controller  : 'listCtrl'
+		})
+
 
 		.otherwise({
 			redirectTo:'/'
