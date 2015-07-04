@@ -9,15 +9,14 @@
         <!-- TODO LIST -->
         <div class="row">
             <ul class="collection">
-
-              <li class="collection-item avatar col s6" ng-repeat="list in lists">
-                  <div>
+              <li class="collection-item avatar col s12 6m l6" ng-repeat="list in lists">
+                  <div class="boxed">
                     <a href="#/list/{{ list.slug }}">
                         <i class="material-icons circle {{ list.color }}">{{ list.icon }}</i>
                         <span class="title">{{ list.name }}</span>
                         <p>{{ list.description }} </p>
-                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                        <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                        <a href="#/edit/{{ list.slug }}" class="secondary-content"><i class="material-icons">edit</i></a>
+                        <a href="#delete/{{ list.slug }}" class="secondary-content trash"><i class="material-icons">delete</i></a>
                     </a>
                   </div>
               </li>
@@ -27,7 +26,7 @@
 
         <!-- BUTTON CONTROLLERS -->
         <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Agregar Nuevo</a>
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light orange card-panel hoverable">Agregar Nuevo</a>
         </div>
         <br><br>
     </div>
