@@ -2,18 +2,35 @@
 	{
 		"id": "1",
 		"name": "Front-end Website #1",
-		"relationship": [
+		"list-relation": [
 			{
 				"id-list": "1",
-				"name_relationship": ""
+				"name_relation": ""
 			}
 		],
 		"description": "Crear Front-end de website #1",
-		"users": [
+		"user": [
 			{
 				"id": "1",
 				"name_user": "Victor"
 			}
+		]
+	},
+	{
+		"id": "2",
+		"name": "Front-end Website #2",
+		"list-relation": [
+			{
+				"id-list": "2",
+				"name_relation": ""
+			}
 		],
+		"description": "Crear Front-end de website #2",
+		"user": [
+			{
+				"id": "2",
+				"name_user": "David"
+			}
+		]
 	}
 ]

@@ -2,25 +2,33 @@
 	{
 		"id": "1",
 		"name": "Desarrollo",
+		"slug": "desarrollo",
+		"description": "Lorem ipsum dolor sit amet.",
 		"color": "",
 		"icon": "code"
 	},
 	{
 		"id": "2",
 		"name": "Produccion",
+		"slug": "produccion",
+		"description": "Lorem ipsum dolor sit amet.",
 		"color": "red",
 		"icon": "view_list"
 	},
 	{
 		"id": "3",
 		"name": "Creatividad",
-		"color": "grenn",
+		"slug": "creatividad",
+		"description": "Lorem ipsum dolor sit amet.",
+		"color": "green",
 		"icon": "thumb_up"
 	},
 	{
 		"id": "4",
 		"name": "Community Manager",
+		"slug": "community-manager",
+		"description": "Lorem ipsum dolor sit amet.",
 		"color": "purple",
 		"icon": "chat_bubble"
-	},
+	}
 ]
