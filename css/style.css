@@ -12194,19 +12194,31 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /* line 5, ../sass/layout/_form.scss */
 .addListForm {
-  height: 400px;
   width: 25%;
   border: 2px #ccc solid;
   border-radius: 1em;
   padding: 2em !important;
-  background: #ccc;
+  background: #f5f5f5;
   margin: 0 auto !important;
   float: none !important;
 }
 
-/* line 16, ../sass/layout/_form.scss */
+/* line 15, ../sass/layout/_form.scss */
 .addListHandler {
   float: right;
+  margin-right: 12px !important;
+}
+
+/* line 20, ../sass/layout/_form.scss */
+.userSelect {
+  top: 17px;
+  position: relative;
+}
+
+/* line 25, ../sass/layout/_form.scss */
+.doneChecked {
+  position: relative;
+  top: 15px;
 }
 
 /* line 1, ../sass/layout/_footer.scss */
@@ -12218,27 +12230,27 @@ footer {
 }
 
 /* line 1, ../sass/modules/_item.scss */
-.collection {
+.collection.lists {
   border: none;
 }
 /* line 3, ../sass/modules/_item.scss */
-.collection li {
+.collection.lists li {
   border: none !important;
   padding: 0 10px 10px 0 !important;
 }
 /* line 6, ../sass/modules/_item.scss */
-.collection li div {
+.collection.lists li div {
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   padding: 15px;
   padding-left: 72px;
 }
 /* line 12, ../sass/modules/_item.scss */
-.collection li .secondary-content {
+.collection.lists li .secondary-content {
   top: 25px !important;
   right: 2em !important;
 }
 /* line 16, ../sass/modules/_item.scss */
-.collection li .trash {
+.collection.lists li .trash {
   top: 3.5em !important;
 }
