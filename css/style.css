@@ -12181,3 +12181,37 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .icon-block .material-icons {
   font-size: inherit;
 }
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 1, ../sass/modules/_item.scss */
+.collection {
+  border: none;
+}
+/* line 3, ../sass/modules/_item.scss */
+.collection li {
+  border: none !important;
+  padding: 0 10px 10px 0 !important;
+}
+/* line 6, ../sass/modules/_item.scss */
+.collection li div {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  padding: 15px;
+  padding-left: 72px;
+}
+/* line 12, ../sass/modules/_item.scss */
+.collection li .secondary-content {
+  top: 25px !important;
+  right: 2em !important;
+}
+/* line 16, ../sass/modules/_item.scss */
+.collection li .trash {
+  top: 3.5em !important;
+}
