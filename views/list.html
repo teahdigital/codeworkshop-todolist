@@ -1,6 +1,6 @@
 <div class="section no-pad-bot" id="index-banner" ng-controller="listCtrl" >
     <div class="container">
-        <h1 class="header center orange-text">{{ name }}</h1>
+        <h1 class="header center orange-text">Lista de {{ name }}</h1>
         <div class="row">
             <form class="col s12">
                 <div class="row">
@@ -14,9 +14,7 @@
                     </div>
                     <select class="browser-default col s2 userSelect">
                         <option value="" disabled selected>Select User</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
+                        <option value="1" ng-repeat="user in users">{{ user.name }}</option>
                     </select>
                     <p class="col s1 doneChecked">
                     <input type="checkbox" id="test5" />

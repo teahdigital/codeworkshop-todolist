@@ -1,35 +1,78 @@
 <div class="section no-pad-bot" id="index-banner" ng-controller="homeCtrl" >
     <div class="container">
         <br><br>
-        <h1 class="header center orange-text">Welcome to TODO List</h1>
+        <h1 class="header center orange-text">Welcome MF</h1>
         <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h5 class="header col s12 light">CodeSapiens Experimental Framework ( Materialize + AngularJS + Laravel 5 )</h5>
         </div>
-
-        <!-- TODO LIST -->
         <div class="row">
-            <ul class="collection">
 
-              <li class="collection-item avatar col s6" ng-repeat="list in lists">
-                    <div class="boxed">
-                        <a href="#/list/{{ list.slug }}">
+            <div class="preloader-wrapper big active spinnerLoad" style="display:none">
+                <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+                </div>
+
+                <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+                </div>
+
+                <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+                </div>
+
+                <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+                </div>
+            </div>
+
+            <ul class="collection lists">
+                <li class="collection-item avatar col s12 m6 l6" ng-repeat="list in lists">
+                    <a href="#/list/{{ list.slug }}">
+                        <div class="boxed">
                             <i class="material-icons circle {{ list.color }}">{{ list.icon }}</i>
                             <span class="title">{{ list.name }}</span>
-                            <p>{{ list.description }} </p>
+                            <p>{{ list.description }}</p>
+                            <br>
                             <a href="#/edit/{{ list.slug }}" class="secondary-content"><i class="material-icons">edit</i></a>
                             <a href="#delete/{{ list.slug }}" class="secondary-content trash"><i class="material-icons">delete</i></a>
-                        </a>
-                    </div>
-              </li>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
-
-        <!-- END TODO LIST -->
 
         <!-- BUTTON CONTROLLERS -->
         <div class="row center">
             <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Agregar Nuevo</a>
         </div>
         <br><br>
+
     </div>
 </div>
+
+
+
