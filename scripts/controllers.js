@@ -74,11 +74,13 @@
 	})
 
 	.factory('API', function($http) {
-		var urlAPI = 'http://codeworkshops.teah.digital/todolist/laravel-api/public/';
+		 var urlAPI = 'http://codeworkshops.teah.digital/todolist/laravel-api/public/';
+		// var urlAPI = 'http://localhost/codeworkshop-todolist/data/';
     	var dataFactory = {};
 
     	dataFactory.getLists = function () {
 	        return $http.get(urlAPI + 'boards');
+	        // return $http.get(urlAPI + 'lists.json');
 	    };
 
 	    dataFactory.getTask = function () {
