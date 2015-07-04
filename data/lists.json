@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"name": "Desarrollo",
+		"color": "",
+		"icon": "code"
+	},
+	{
+		"id": "2",
+		"name": "Produccion",
+		"color": "red",
+		"icon": "view_list"
+	},
+	{
+		"id": "3",
+		"name": "Creatividad",
+		"color": "grenn",
+		"icon": "thumb_up"
+	},
+	{
+		"id": "4",
+		"name": "Community Manager",
+		"color": "purple",
+		"icon": "chat_bubble"
+	},
+]
