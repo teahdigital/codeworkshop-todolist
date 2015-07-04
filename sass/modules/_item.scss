@@ -1,4 +1,4 @@
-.collection {
+.collection.lists {
   border: none;
   li {
     border: none !important;
@@ -17,4 +17,8 @@
       top: 3.5em !important;
     }
   }
+}
+
+.listofTasks {
+  margin-bottom: 2em;
 }

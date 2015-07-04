@@ -1,6 +1,34 @@
 <div class="section no-pad-bot" id="index-banner" ng-controller="listCtrl" >
     <div class="container">
-        <br><br>
         <h1 class="header center orange-text">{{ name }}</h1>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s4">
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Add Task</label>
+                    </div>
+                    <div class="input-field col s5">
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">description</label>
+                    </div>
+                    <select class="browser-default col s2 userSelect">
+                        <option value="" disabled selected>Select User</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <p class="col s1 doneChecked">
+                    <input type="checkbox" id="test5" />
+                    <label for="test5">Done</label>
+                    </p>
+                </div>
+            </form>
+
+            <ul class="collection with-header">
+                <li class="collection-header"><h4>Tasks</h4></li>
+                <li class="collection-item" ng-repeat=" task in tasks ">{{ task.name }} - {{ task.description }}</li>
+            </ul>
+        </div>
     </div>
 </div>

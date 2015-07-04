@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Starter Template - Materialize</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+
+      <!-- HEADER -->
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">TODO list</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Ver todos</a></li>
+                    <li><a href="#">Agregar nuevo</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Ver todos</a></li>
+                    <li><a href="#">Agregar nuevo</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <!-- END HEADER -->
+
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text">Welcome to TODO List</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+
+                <!-- TODO LIST -->
+                <div class="row">
+
+                  <div class="preloader-wrapper big active spinnerLoad">
+                      <div class="spinner-layer spinner-blue">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+
+                      <div class="spinner-layer spinner-red">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+
+                      <div class="spinner-layer spinner-yellow">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+
+                      <div class="spinner-layer spinner-green">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                      <ul class="collection lists">
+                        <a href="#">
+                          <li class="collection-item avatar col s12 m6 l6">
+                            <a href="#">
+                              <div class="boxed">
+                                <i class="material-icons circle">folder</i>
+                                <span class="title">Title</span>
+                                <p>First Line <br>
+                                Second Line
+                                </p>
+                                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="collection-item avatar col s12 m6 l6">
+                            <a href="#">
+                              <div class="boxed">
+                                <i class="material-icons circle green">insert_chart</i>
+                                <span class="title">Title</span>
+                                <p>First Line <br>
+                                Second Line
+                                </p>
+                                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="collection-item avatar col s12 m6 l6">
+                            <a href="#">
+                              <div class="boxed">
+                                <i class="material-icons circle red">play_arrow</i>
+                                <span class="title">Title</span>
+                                <p>First Line <br>
+                                Second Line
+                                </p>
+                                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="collection-item avatar col s12 m6 l6">
+                            <a href="#">
+                              <div class="boxed">
+                                <i class="material-icons circle red">play_arrow</i>
+                                <span class="title">Title</span>
+                                <p>First Line <br>
+                                Second Line
+                                </p>
+                                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                              </div>
+                            </a>
+                          </li>
+                      </ul>
+                </div>
+                <!-- END TODO LIST -->
+
+                <!-- FORM to ADD -->
+                <div class="row addTODO">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">Task Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Description</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- END FORM to ADD -->
+
+                <!-- BUTTON CONTROLLERS -->
+                <div class="row center">
+                    <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Agregar Nuevo</a>
+                </div>
+                <br><br>
+            </div>
+        </div>
+
+        <!-- FOOTTER -->
+        <footer class="page-footer orange">
+
+            <div class="footer-copyright">
+                <div class="container">
+                    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+
+        <!--  Scripts-->
+        <script src="scripts/vendors/jquery-2.1.1.min.js"></script>
+        <script src="scripts/vendors/materialize.js"></script>
+        <script src="scripts/vendors/angular/angular.js"></script>
+        <script src="scripts/vendors/angular/angular-animate.js"></script>
+        <script src="scripts/vendors/angular/angular-route.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers.js"></script>
+        <script src="scripts/init.js"></script>
+    </body>
+</html>

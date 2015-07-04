@@ -9,60 +9,21 @@
         <!-- TODO LIST -->
         <div class="row">
             <ul class="collection">
-              <li class="collection-item avatar col s6">
-                <a href="#">
-                  <div>
-                    <i class="material-icons circle">folder</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                    Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
-                  </div>
-                </a>
-              </li>
-              <li class="collection-item avatar col s6">
-                <a href="#">
-                  <div>
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                    Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
-                  </div>
-                </a>
-              </li>
-              <li class="collection-item avatar col s6">
-                <a href="#">
-                  <div>
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                    Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
-                  </div>
-                </a>
-              </li>
-              <li class="collection-item avatar col s6">
-                <a href="#">
-                  <div>
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Title</span>
-                    <p>First Line <br>
-                    Second Line
-                    </p>
-                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    <a href="#!" class="secondary-content trash"><i class="material-icons">delete</i></a>
-                  </div>
-                </a>
+
+              <li class="collection-item avatar col s6" ng-repeat="list in lists">
+                    <div class="boxed">
+                        <a href="#/list/{{ list.slug }}">
+                            <i class="material-icons circle {{ list.color }}">{{ list.icon }}</i>
+                            <span class="title">{{ list.name }}</span>
+                            <p>{{ list.description }} </p>
+                            <a href="#/edit/{{ list.slug }}" class="secondary-content"><i class="material-icons">edit</i></a>
+                            <a href="#delete/{{ list.slug }}" class="secondary-content trash"><i class="material-icons">delete</i></a>
+                        </a>
+                    </div>
               </li>
             </ul>
         </div>
+
         <!-- END TODO LIST -->
 
         <!-- BUTTON CONTROLLERS -->

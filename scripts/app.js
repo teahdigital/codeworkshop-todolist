@@ -16,6 +16,10 @@
 			controller  : 'listCtrl'
 		})
 
+		.when('/addlist/', {
+			templateUrl : 'views/addlist.html',
+			controller  : 'addlistCtrl'
+		})
 
 		.otherwise({
 			redirectTo:'/'
@@ -23,5 +27,4 @@
 	});
 
 	angular.module('appControllers', []);
-	
 })();
