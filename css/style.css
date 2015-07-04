@@ -12187,6 +12187,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   min-height: 100px;
 }
 
+/* line 5, ../sass/layout/_todo.scss */
+.spinnerLoad {
+  position: absolute;
+  left: 48%;
+  top: 391px;
+  z-index: 3;
+}
+
+/* line 13, ../sass/layout/_todo.scss */
+.ready .spinnerLoad {
+  display: none;
+}
+
 /* line 1, ../sass/layout/_form.scss */
 .addTODO {
   display: none;
@@ -12253,4 +12266,9 @@ footer {
 /* line 16, ../sass/modules/_item.scss */
 .collection.lists li .trash {
   top: 3.5em !important;
+}
+
+/* line 22, ../sass/modules/_item.scss */
+.listofTasks {
+  margin-bottom: 2em;
 }

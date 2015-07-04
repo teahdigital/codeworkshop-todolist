@@ -1,3 +1,16 @@
 .boxed {
   min-height: 100px;
 }
+
+.spinnerLoad {
+  position: absolute;
+  left: 48%;
+  top: 391px;
+  z-index: 3;
+}
+
+.ready {
+  .spinnerLoad {
+    display: none;
+  }
+}
