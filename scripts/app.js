@@ -16,12 +16,10 @@
 			controller  : 'listCtrl'
 		})
 
-
 		.otherwise({
 			redirectTo:'/'
 		});
 	});
 
 	angular.module('appControllers', []);
-	
 })();
