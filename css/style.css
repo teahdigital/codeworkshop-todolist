@@ -12182,6 +12182,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: inherit;
 }
 
+/* line 1, ../sass/layout/_form.scss */
+.addTODO {
+  display: none;
+}
+
 /* line 1, ../sass/layout/_footer.scss */
 footer {
   position: fixed;
