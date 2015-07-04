@@ -3,16 +3,26 @@
 }
 
 .addListForm {
-  height: 400px;
   width: 25%;
   border: 2px #ccc solid;
   border-radius: 1em;
   padding: 2em !important;
-  background: #ccc;
+  background: #f5f5f5;
   margin: 0 auto !important;
   float: none !important;
 }
 
 .addListHandler {
   float: right;
+  margin-right: 12px !important;
+}
+
+.userSelect {
+  top: 17px;
+  position: relative;
+}
+
+.doneChecked {
+  position: relative;
+  top: 15px;
 }
