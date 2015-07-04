@@ -1,20 +1,20 @@
 (function(){
 	'use strict';
 
-	var app = angular.module('dashboard', ['ngRoute', 'ngAnimate', 'appControllers']);
+	var app = angular.module('todolist', ['ngRoute', 'appControllers']);
 
 	app.config(function($routeProvider) {
 		$routeProvider
 
 		.when('/', {
-			templateUrl : 'views/home.html',
+			templateUrl : 'views/index.html',
 			controller  : 'homeController'
 		})
 
-		.when('/client/:slug/', {
-			templateUrl : 'views/client.html',
-			controller  : 'clientController'
-		})
+		// .when('/client/:slug/', {
+		// 	templateUrl : 'views/client.html',
+		// 	controller  : 'clientController'
+		// })
 
 		.otherwise({
 			redirectTo:'/'
