@@ -12182,6 +12182,33 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: inherit;
 }
 
+/* line 1, ../sass/layout/_todo.scss */
+.boxed {
+  min-height: 100px;
+}
+
+/* line 1, ../sass/layout/_form.scss */
+.addTODO {
+  display: none;
+}
+
+/* line 5, ../sass/layout/_form.scss */
+.addListForm {
+  height: 400px;
+  width: 25%;
+  border: 2px #ccc solid;
+  border-radius: 1em;
+  padding: 2em !important;
+  background: #ccc;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+/* line 16, ../sass/layout/_form.scss */
+.addListHandler {
+  float: right;
+}
+
 /* line 1, ../sass/layout/_footer.scss */
 footer {
   position: fixed;
