@@ -3667,89 +3667,125 @@ span.badge.new:after {
 }
 
 @-webkit-keyframes indeterminate {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -35%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 100%;
     right: -90%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 100%;
     right: -90%;
   }
 }
+
 @-moz-keyframes indeterminate {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -35%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 100%;
     right: -90%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 100%;
     right: -90%;
   }
 }
+
 @keyframes indeterminate {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -35%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 100%;
     right: -90%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 100%;
     right: -90%;
   }
 }
+
 @-webkit-keyframes indeterminate-short {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -200%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 107%;
     right: -8%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 107%;
     right: -8%;
   }
 }
+
 @-moz-keyframes indeterminate-short {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -200%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 107%;
     right: -8%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 107%;
     right: -8%;
   }
 }
+
 @keyframes indeterminate-short {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     left: -200%;
     right: 100%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   60% {
     left: 107%;
     right: -8%;
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     left: 107%;
     right: -8%;
   }
 }
+
 /* line 6, ../sass/base/materialize/_materialize.min.scss */
 .hide {
   display: none !important;
@@ -3821,6 +3857,7 @@ span.badge.new:after {
   font-weight: normal;
   font-style: normal;
 }
+
 /* line 6, ../sass/base/materialize/_materialize.min.scss */
 [class^="mdi-"], [class*="mdi-"] {
   speak: none;
@@ -3986,25 +4023,33 @@ span.badge.new:after {
 }
 
 @-webkit-keyframes mdi-spin {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
+
 @keyframes mdi-spin {
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
+  /* line 6, ../sass/base/materialize/_materialize.min.scss */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
+
 /* line 6, ../sass/base/materialize/_materialize.min.scss */
 .mdi-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
@@ -8546,26 +8591,31 @@ nav .input-field label.active {
   src: url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
   font-weight: 200;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Regular.woff2") format("woff2"), url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
 }
+
 /* line 6, ../sass/base/materialize/_materialize.min.scss */
 a {
   text-decoration: none;
@@ -10959,15 +11009,19 @@ select {
 }
 
 @-webkit-keyframes container-rotate {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @keyframes container-rotate {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     transform: rotate(360deg);
   }
 }
+
 /* line 13, ../sass/base/materialize/_materialize.min.scss */
 .spinner-layer {
   position: absolute;
@@ -11028,199 +11082,315 @@ select {
 }
 
 @-webkit-keyframes fill-unfill-rotate {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   12.5% {
     -webkit-transform: rotate(135deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     -webkit-transform: rotate(270deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   37.5% {
     -webkit-transform: rotate(405deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     -webkit-transform: rotate(540deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   62.5% {
     -webkit-transform: rotate(675deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     -webkit-transform: rotate(810deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   87.5% {
     -webkit-transform: rotate(945deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     -webkit-transform: rotate(1080deg);
   }
 }
+
 @keyframes fill-unfill-rotate {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   12.5% {
     transform: rotate(135deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     transform: rotate(270deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   37.5% {
     transform: rotate(405deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     transform: rotate(540deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   62.5% {
     transform: rotate(675deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     transform: rotate(810deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   87.5% {
     transform: rotate(945deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     transform: rotate(1080deg);
   }
 }
+
 @-webkit-keyframes blue-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   26% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   89% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   90% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   100% {
     opacity: 1;
   }
 }
+
 @keyframes blue-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   26% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   89% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   90% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   100% {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes red-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   15% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   51% {
     opacity: 0;
   }
 }
+
 @keyframes red-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   15% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   25% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   51% {
     opacity: 0;
   }
 }
+
 @-webkit-keyframes yellow-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   40% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   76% {
     opacity: 0;
   }
 }
+
 @keyframes yellow-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   40% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   76% {
     opacity: 0;
   }
 }
+
 @-webkit-keyframes green-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   65% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   90% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   100% {
     opacity: 0;
   }
 }
+
 @keyframes green-fade-in-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   65% {
     opacity: 0;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   75% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   90% {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   100% {
     opacity: 0;
   }
 }
+
 /* line 13, ../sass/base/materialize/_materialize.min.scss */
 .gap-patch {
   position: absolute;
@@ -11294,49 +11464,73 @@ select {
 }
 
 @-webkit-keyframes left-spin {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     -webkit-transform: rotate(130deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     -webkit-transform: rotate(-5deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     -webkit-transform: rotate(130deg);
   }
 }
+
 @keyframes left-spin {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     transform: rotate(130deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     transform: rotate(-5deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     transform: rotate(130deg);
   }
 }
+
 @-webkit-keyframes right-spin {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     -webkit-transform: rotate(-130deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     -webkit-transform: rotate(5deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     -webkit-transform: rotate(-130deg);
   }
 }
+
 @keyframes right-spin {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     transform: rotate(-130deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   50% {
     transform: rotate(5deg);
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     transform: rotate(-130deg);
   }
 }
+
 /* line 13, ../sass/base/materialize/_materialize.min.scss */
 #spinnerContainer.cooldown {
   -webkit-animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -11344,21 +11538,29 @@ select {
 }
 
 @-webkit-keyframes fade-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     opacity: 0;
   }
 }
+
 @keyframes fade-out {
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   from {
     opacity: 1;
   }
+
+  /* line 13, ../sass/base/materialize/_materialize.min.scss */
   to {
     opacity: 0;
   }
 }
+
 /* line 13, ../sass/base/materialize/_materialize.min.scss */
 .slider {
   position: relative;
@@ -12271,4 +12473,26 @@ footer {
 /* line 22, ../sass/modules/_item.scss */
 .listofTasks {
   margin-bottom: 2em;
+}
+
+/* line 26, ../sass/modules/_item.scss */
+.btn-send {
+  margin: 6px 0px 0px;
+}
+
+/* line 29, ../sass/modules/_item.scss */
+footer {
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 33, ../sass/modules/_item.scss */
+  .tag-send {
+    text-align: center;
+  }
+
+  /* line 36, ../sass/modules/_item.scss */
+  .btn-send {
+    margin: 30px 0px 0px;
+  }
 }

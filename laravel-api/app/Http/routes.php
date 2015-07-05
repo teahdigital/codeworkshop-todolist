@@ -14,4 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('boards', 'BoardController@index');
+// Route::get('boards', 'BoardController@index');
+// Route::post('boards', 'BoardController@store');
+Route::resource("boards", "BoardController");

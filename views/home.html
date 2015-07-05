@@ -1,12 +1,12 @@
 <div class="section no-pad-bot" id="index-banner" ng-controller="homeCtrl" >
     <div class="container">
         <br><br>
-        <h1 class="header center orange-text">Welcome MF</h1>
+        <h1 class="header center blue-text text-darken-2">Tasks manager</h1>
         <div class="row center">
-            <h5 class="header col s12 light">CodeSapiens Experimental Framework ( Materialize + AngularJS + Laravel 5 )</h5>
+            <h5 class="header col s12 light">Web application that manages tasks, sorted by boards, created with materializeCSS, angularJS & Laravel5</h5>
         </div>
         <div class="row">
-
+    
             <div class="preloader-wrapper big active spinnerLoad" style="display:none">
                 <div class="spinner-layer spinner-blue">
                 <div class="circle-clipper left">
@@ -48,9 +48,46 @@
                 </div>
                 </div>
             </div>
+            <br><br>
+            <div class="row">
+            <div class="col s12">
+              
 
+                <form class="col s12 m12 l12 listofTasks">
+                    <div class="row">
+                        <div class="input-field col s12 m12 l3">
+                            <input ng-model="board.name" id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Board name</label>
+                        </div>
+                        <div class="input-field col s12 m12 l4">
+                            <input ng-model="board.description" id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">description</label>
+                        </div>
+                        <select ng-model="board.icon" class="browser-default col s12 m12 l2 userSelect">
+                            <option value="">Icon</option>
+                            <option value="code">Code</option>
+                            <option value="view_list">View List</option>
+                            <option value="thumb_up">Thumb Up</option>
+                            <option value="chat_bubble">Chat Bubble</option>
+                        </select>
+                        <select ng-model="board.color" class="browser-default col s12 m12 l2 userSelect">
+                            <option value="">Color</option>
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                            <option value="purple">Purple</option>
+                        </select>
+                        <div class="input-field col s12 m12 l1 right-align tag-send">
+                            <!-- <p class="col s2 m2 l2 doneChecked right-align"> -->
+                            <a ng-click="submit(board)" class="btn-floating waves-effect waves-light green btn-send"><i class="material-icons">add</i></a>
+                            <!-- </p> -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div class="row">
             <ul class="collection lists">
-                <li class="collection-item avatar col s12 m6 l6" ng-repeat="list in lists">
+                <li class="collection-item avatar col s12 m6 l6" ng-repeat="list in lists.slice().reverse()">
                     <a href="#/list/{{ list.slug }}">
                         <div class="boxed">
                             <i class="material-icons circle {{ list.color }}">{{ list.icon }}</i>
@@ -63,13 +100,9 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </div>
 
-        <!-- BUTTON CONTROLLERS -->
-        <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Agregar Nuevo</a>
-        </div>
-        <br><br>
 
     </div>
 </div>

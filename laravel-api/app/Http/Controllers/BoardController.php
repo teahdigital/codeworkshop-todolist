@@ -36,9 +36,23 @@ class BoardController extends Controller
      *
      * @return Response
      */
-    public function store()
+    public function store(Request $request)
     {
-        //
+        $board = new \App\Models\Board();
+
+        $board->name = $request->name;
+        $board->description = $request->description;
+        $board->slug = str_slug($request->name, "-");
+        $board->color = $request->color;
+        $board->icon = $request->icon;
+
+        $board->save();
+
+        return response()->json([
+                "msg" => "Success",
+                "id" => $board->id
+           ], 200
+        );
     }
 
     /**

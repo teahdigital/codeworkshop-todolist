@@ -4,13 +4,38 @@
 	angular.module('appControllers')
  
 	.controller('homeCtrl', function($scope, $routeParams, API){
-		
-		$scope.lists = [];
-		API.getLists().success(function (response) {
-            $scope.lists = response.boards;
-        }).error(function (error) {
-            $scope.status = 'Unable to load lists data: ' + error.message;
-        });
+  		$('.ng-scope').css({ 'min-height': ($(window).height()-(90+64)) });
+
+  		//listing all boards
+			$scope.lists = [];
+			function refresh(){
+				API.getLists().success(function (response) {
+		            $scope.lists = response.boards;
+		        }).error(function (error) {
+		            $scope.status = 'Unable to load lists data: ' + error.message;
+		        });
+			}
+			refresh();
+
+	    // setting new board object    
+		    $scope.board = {
+				name: '',
+				description: '',
+				color: '',
+				icon: ''
+		    };
+
+		    $scope.submit = function(board){
+		    	API.addBoard(board).success(function (response) {
+		            if(response.msg){
+		            	angular.copy({}, $scope.board);
+		            	refresh();
+		            }
+		        }).error(function (error) {
+		            console.log(error);
+		        });
+		    }
+
 
 	})
 
@@ -75,11 +100,18 @@
 
 	.factory('API', function($http) {
 		 var urlAPI = 'http://codeworkshops.teah.digital/todolist/laravel-api/public/';
-		// var urlAPI = 'http://localhost/codeworkshop-todolist/data/';
+		// var urlAPI = 'http://localhost/codeworkshop-todolist/d  ata/';
     	var dataFactory = {};
 
     	dataFactory.getLists = function () {
 	        return $http.get(urlAPI + 'boards');
+	        // return $http.get(urlAPI + 'lists.json');
+	    };
+	    dataFactory.addBoard = function (data) {
+	    	console.log('adding');
+		    console.log(data);
+
+	        return $http.post(urlAPI + 'boards', data);
 	        // return $http.get(urlAPI + 'lists.json');
 	    };
 
