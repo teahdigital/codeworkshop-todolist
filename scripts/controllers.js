@@ -25,18 +25,19 @@
 				icon: ''
 		    };
 
+		//submit function 
 		    $scope.submit = function(board){
 		    	API.addBoard(board).success(function (response) {
 		            if(response.msg){
-		            	angular.copy({}, $scope.board);
-		            	refresh();
+		            	//clear board scope
+		            		angular.copy({}, $scope.board);
+		            	// refresh function for update boards
+		            		refresh();
 		            }
 		        }).error(function (error) {
 		            console.log(error);
 		        });
 		    }
-
-
 	})
 
 	.controller('listCtrl', function($scope, $routeParams, API){
